@@ -6,10 +6,13 @@ const Assets = require('./assets');
 
 module.exports = {
 
-	entry: './src/js/scripts.js',
+	entry: {
+    scripts: './js/scripts.js',
+    scrollreveal: './js/scrollreveal.js'
+  },
 	output: {
 		path: __dirname + '/dist',
-		filename: 'bundle.js'
+		filename: '[name].bundle.js'
 	},
 
 	plugins: [
