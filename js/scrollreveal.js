@@ -7,6 +7,8 @@ var nodeArray = [
 	document.querySelector('.services'),
 	document.querySelector('.portfolio'),
 	document.querySelector('.about'),
+	document.querySelector('.Amazing'),
+	document.querySelector('.teamPerson')
 
 ]
 
@@ -18,12 +20,14 @@ Sr.reveal(nodeArray,{
 })
 
 Sr.reveal('.logo',{
+	delay: 100,
 	distance: '100px',
 	duration: 1500,
 	reset: true
 })
 
 Sr.reveal('.firstPortfolio',{
+	delay: 100,
 	distance: '-200px',
 	duration: 1500,
 	reset: true
@@ -65,7 +69,7 @@ Sr.reveal('.fourthAbout',{
 
 Sr.reveal('.fifthAbout',{
 	origin: 'bottom',
-	distance: '300px',
+	distance: '100px',
 	duration: 1500,
 	reset: true
 })
