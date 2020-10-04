@@ -1,7 +1,6 @@
 const css = [
 	'animate.css/animate.min.css',
 	'bootstrap/dist/css/bootstrap.min.css'
-
 ]
 
 const js = [

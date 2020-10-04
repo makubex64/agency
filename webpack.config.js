@@ -6,7 +6,7 @@ const Assets = require('./assets');
 
 module.exports = {
 
-	entry: './src/js/scripts.js',
+	entry: './js/scripts.js',
 	output: {
 		path: __dirname + '/dist',
 		filename: 'bundle.js'
