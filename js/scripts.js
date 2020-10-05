@@ -1,5 +1,9 @@
 (function ($) {
     "use strict"; // Start of use strict
+    
+    const navBarLi = document.querySelectorAll('.nav-item .nav-link');
+   
+
 
 
     // Smooth scrolling using jQuery easing
@@ -41,12 +45,3 @@
 
 })(jQuery); // End of use strict
 
-<<<<<<< HEAD
-$(document).ready(function(){
-        $(".masthead-subheading").delay(4000).fadeIn();
-
-})
-=======
-var navBarLi = document.querySelectorAll('.nav-item .nav-link')
-console.log(navBarLi)
->>>>>>> 8f26df0197c67337a7b02a9e89268b5b94721f60
