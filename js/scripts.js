@@ -1,10 +1,7 @@
 (function ($) {
     "use strict"; // Start of use strict
     
-    const navBarLi = document.querySelectorAll('.nav-item .nav-link');
-   
-
-
+ 
 
     // Smooth scrolling using jQuery easing
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
